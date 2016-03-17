@@ -10,7 +10,7 @@ Rationale is that sometimes, you just want something very straightforward to set
 
 ## API
 
-```
+```js
 
 // project-config.js or whatever
 

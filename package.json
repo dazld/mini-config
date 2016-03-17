@@ -4,7 +4,7 @@
   "description": "Minimal configuration provider with guard for undefined values, and resetting them.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava --verbose"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dazld/mini-config/issues"
   },
-  "homepage": "https://github.com/dazld/mini-config#readme"
+  "homepage": "https://github.com/dazld/mini-config#readme",
+  "devDependencies": {
+    "ava": "^0.13.0"
+  }
 }
