@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dazld/mini-config.svg?branch=master)](https://travis-ci.org/dazld/mini-config)
+
 # Mini configuration provider
 
 Minimal wrapper around a `Map` that tries to protect you from referencing undefined variables, or from redefining keys at runtime.
