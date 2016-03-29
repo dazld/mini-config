@@ -1,22 +1,33 @@
 {
-  "name": "mini-config",
-  "version": "1.0.0",
-  "description": "Minimal configuration provider with guard for undefined values, and resetting them.",
-  "main": "index.js",
-  "scripts": {
-    "test": "ava --verbose"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dazld/mini-config.git"
-  },
-  "author": "Dan Peddle <dan@flarework.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dazld/mini-config/issues"
-  },
-  "homepage": "https://github.com/dazld/mini-config#readme",
-  "devDependencies": {
-    "ava": "^0.13.0"
-  }
+    "name": "mini-config",
+    "version": "1.0.1",
+    "description": "Minimal configuration provider with guard for undefined values, and resetting them.",
+    "main": "index.js",
+    "scripts": {
+        "test": "ava --verbose"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dazld/mini-config.git"
+    },
+    "author": "Dan Peddle <dan@flarework.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dazld/mini-config/issues"
+    },
+    "homepage": "https://github.com/dazld/mini-config#readme",
+    "devDependencies": {
+        "ava": "^0.13.0"
+    },
+    "browserify": {
+        "transform": [
+            [
+                "babelify", {
+                    "presets": [
+                        "es2015"
+                    ]
+                }
+            ]
+        ]
+    }
 }
